@@ -1,13 +1,12 @@
 package com.sharad.main;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+	
+	public int sum( int a, int b) {
+		return a+b;
+	}
+    public static void main( String[] args ) {
+        App a= new App();
+        System.out.println("Sum of two number : "+ a.sum(2, 4));
     }
 }
